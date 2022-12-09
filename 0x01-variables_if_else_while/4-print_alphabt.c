@@ -12,9 +12,9 @@ int main(void)
 	
 	for (letter = a; letter <= z; letter++)
 	{
-	if (letter != e && letter != q)
-	putchar(letter);
+	if (letter == e || letter == q)
+		continue;
 	}
-	putchar(n);
+	putchar(letter);
 	return (0);
 }
