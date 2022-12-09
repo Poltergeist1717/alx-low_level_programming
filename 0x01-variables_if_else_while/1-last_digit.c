@@ -16,10 +16,11 @@ int last_digit;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	last_digit = n % 5;
+	last_digit = n % 10;
 
 	if (last_digit > 5)
-	{printf("%d is greater than 5\n", last_digit);
+	{
+	printf("%d is greater than 5\n", last_digit);
 	}
 	else if (last_digit == 0)
 	{
