@@ -4,7 +4,7 @@
  * main - entry
  * Description - this program prints alphabets in lowercase
  * Return: returns 0 (success)
-i  */
+ */
 
 int main(void)
 {
