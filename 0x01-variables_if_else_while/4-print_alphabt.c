@@ -11,9 +11,6 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-	putchar('\n');
-	}
-	{
 	if (letter == 'e')
 	{
 		continue;
@@ -23,7 +20,7 @@ int main(void)
 		continue;
 	}
 	{
-	putchar(letter);
+	putchar(letter'\n');
 	}
 	}
 	return (0);
