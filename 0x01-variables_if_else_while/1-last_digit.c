@@ -2,17 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+/**
+ * main - entry
+ * last digit stored in the variable
+ * Result: always 0
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
-int last_digit;
 int n;
+int last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	last_digit = n % 20;
+	last_digit = n % 10;
 
 	if (last_digit > 5)
 	{printf("%d is greater than 5\n", last_digit);
