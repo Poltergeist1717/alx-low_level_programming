@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
-  * Main: entry point
+  * main - entry point
   * Description: print numbers of base 10
   * Return: always 0
   */
