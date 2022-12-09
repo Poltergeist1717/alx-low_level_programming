@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
   * main - entry
   * Decription - prints alphabets except e and q
@@ -12,9 +11,13 @@ int main(void)
 	
 	for (letter = a; letter <= z; letter++)
 	{
+	putchar(letter)
+	
 	if (letter == e || letter == q)
+	{
 		continue;
 	}
-	putchar(letter);
+	putchar(letter)
+	}
 	return (0);
 }
