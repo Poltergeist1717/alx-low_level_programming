@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-  * main: entry point
+  * Main: entry point
   * Description: print all single digit number of base 10
   * Return: Always 0
   */
@@ -14,6 +14,6 @@ int main(void)
 	{
 		printf("%d", a);
 	}
-	putchar('\n');
-	return(0);
+	putchar ('\n');
+	return (0);
 }
