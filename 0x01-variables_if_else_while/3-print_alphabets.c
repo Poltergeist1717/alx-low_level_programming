@@ -3,7 +3,7 @@
 
 /**
   * main - entry point for program
-  * Descritption: program that prints alphabets in lower and upper cases respectively
+  * Descritption:prints alphabets in lower and upper cases respectively
   * Return: returns 0 always
   */
 
@@ -11,6 +11,7 @@ int main(void)
 
 {
 	int ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 	putchar(ch);
