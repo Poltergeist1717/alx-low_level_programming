@@ -5,7 +5,7 @@
 /**
  * main - entry point
  * Description - last digit stored in the variable
- * Result: always 0
+ * Return: always 0
  */
 /* betty style doc for function main goes there */
 int main(void)
@@ -16,7 +16,7 @@ int last_digit;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	last_digit = n % 2;
+	last_digit = n % 10;
 	if (last_digit > 5)
 	{
 	printf("%d is greater than 5\n", last_digit);
