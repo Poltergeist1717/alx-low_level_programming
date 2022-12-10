@@ -2,9 +2,9 @@
 #include <unistd.h>
 /**
  * main: entry point
-  * Description: prints "and that piece of  art i usefuls.. "
- * Description: prints withou printf oe put
- * return: Always 0
+ * Description: prints "and that piece of  art i usefuls.. "
+ * prints withou printf oe put
+ * Return: Always 0
  *
  */
 int main(void)
