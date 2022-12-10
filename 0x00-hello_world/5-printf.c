@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  * main - entry point
- * Descriptio: nthis program prints the phrase:" 
+ * Descriptio: nthis program prints the phrase:
  * with proper grammar,
  * but the outcome is a piece of art"
  *Return: Always 0
