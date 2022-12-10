@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
-  * main: entry point
+  * Main: entry point
   * Description: print combination of digits
   * Return: always 0
   */
