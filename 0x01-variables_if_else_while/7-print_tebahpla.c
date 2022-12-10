@@ -7,10 +7,10 @@
   * Return: always 0
   */
 
-in main(void)
+int main(void)
 {
 	char a;
-	for (a = 'z'; a <= 'a'a; a++)
+	for (a = 'z'; a <= 'a'; a++)
 	{
 		putchar(a);
 	}
