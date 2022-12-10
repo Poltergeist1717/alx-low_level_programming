@@ -1,8 +1,8 @@
-#include <stdio.h>
+i#include <stdio.h>
 #include <unistd.h>
 
 /**
-  * main - entry point 
+  * main - entry point
   * distiction - number of base 16
   * Return: return 0 always
   */
