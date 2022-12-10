@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - prints "and that piece of  art i usefuls.. "
+ * main: prints "and that piece of  art i usefuls.. "
+ * Description: prints withou printf oe put
  * return: Always 0
  *
  */
