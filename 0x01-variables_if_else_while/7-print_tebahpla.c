@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
-  * Main - entry point
+  * main - entry point
   * Description: lowercase in reverse
   * Return: always 0
   */
@@ -10,7 +10,8 @@
 int main(void)
 {
 	char a;
-	for (a = 'z'; a <= 'a'; a++)
+
+	for (a = 'z'; a >= 'a'; a++)
 	{
 		putchar(a);
 	}
