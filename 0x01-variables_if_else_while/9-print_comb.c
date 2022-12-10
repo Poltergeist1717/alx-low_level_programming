@@ -2,18 +2,17 @@
 #include <unistd.h>
 /**
   * main - entry point
-  * Description - prints combo
-  * Return - always 0
+  * Description: - prints combo
+  * Return: - always 0
   */
-
 int main(void)
 {
 	int i;
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		putchar(i);
-		if (i != '9')
+	putchar(i);
+	if (i != '9')
 	{
 	putchar(',');
 	putchar(' ');
