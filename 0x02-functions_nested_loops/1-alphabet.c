@@ -4,7 +4,8 @@
   * main - Entry point
   * Description: a function that prints the alphabet,
   * in lowecase followed by a new line
-  * Return: returns  void
+  * Return: returns void
+  * Void - prints void
   */
 
 void print_alphabet(void)
