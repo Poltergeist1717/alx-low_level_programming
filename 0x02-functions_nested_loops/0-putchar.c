@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,17 +6,22 @@
   * Description: prints _putchar
   * Return: always 0
   */
+
 int main(void)
-
 {
-	char str[] = "_putchar\n";
-	int i = 0;
-
-	while (str[i] != '\0')
+	char msg[] = "_putchar\n";
+	int i;
+	for (i = 0; i < 13; i++)
 	{
-		char c = str[i];
-		putchar(c);
-		i++;
+	if (msg[i] == '\n')
+	{
+	putchar('\n');
+	break;
 	}
-		return (0);
+	else
+	{
+	putchar(msg[i]);
+	}
+	}
+	return (0);
 }
