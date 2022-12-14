@@ -1,5 +1,5 @@
 #include <stdio.h>
-"main.h"
+#include "main.h"
 
 /**
   * main: entry point
@@ -9,8 +9,15 @@
 
 int main(void)
 {
-	char c = _putchar
+	char str[] = "_putchar\n";
+	int i = 0;
 
-	printf("%c", c);
+	while (str[i] != '\0')
+	{
+
+		char c = str[i];
+		_putchar(c);
+		i++;
+	}
 	return (0);
 }
