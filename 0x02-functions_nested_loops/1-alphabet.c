@@ -1,14 +1,15 @@
-#include "main.h"
+i#include "main.h"
 
 /**
   * main - Entry point
-  * Description: a function that prints the alphabet,
+  * Description: prints the alphabet,
   * in lowecase followed by a new line
   * Return: returns void
   * Void - prints void
   */
 
 void print_alphabet(void)
+	/*prints the alphabet*/
 {
 	char letter = 'a';
 
