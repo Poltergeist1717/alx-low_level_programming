@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
   * mul - gives the product of a and b
   * @a: first variable
@@ -8,5 +9,5 @@
 
 int mul(int a, int b)
 {
-	return (a * b);
+return (a * b);
 }
