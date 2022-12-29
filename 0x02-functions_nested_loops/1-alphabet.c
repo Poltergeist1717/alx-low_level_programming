@@ -9,7 +9,7 @@
   */
 
 void print_alphabet(void)
-	/*prints the alphabet*/
+/*prints the alphabet*/
 {
 	char letter = 'a';
 
