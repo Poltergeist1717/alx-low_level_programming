@@ -19,6 +19,10 @@ char *_strdup(char *str)
 		if (str == NULL)
 			return (NULL);
 
+		i = 0;
+		while (*str++)
+			i++;
+
 		len = i;
 		str = tmp;
 
