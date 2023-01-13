@@ -3,14 +3,14 @@
 #include <stdlib.h>
 
 /**
-   * string_nconcat - function that concatenates two strings
-    *
-     * @s1: string of chars
-      * @s2: string of chars
-       * @n: size of s2 to copy
-        *
-	 * Return: address of the newly allocated memory
-	  */
+* string_nconcat - function that concatenates two strings
+*
+* @s1: string of chars
+* @s2: string of chars
+* @n: size of s2 to copy
+*
+* Return: address of the newly allocated memory
+*/
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
