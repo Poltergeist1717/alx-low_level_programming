@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-
 void _error(void);
 int _isnumber(char *str);
 int _strlen(char *s);
